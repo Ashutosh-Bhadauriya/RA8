@@ -43,7 +43,7 @@ export default function App() {
         onChange={emojiInputHandler}
       ></input>
       <div className="emoji-meaning">{meaning}</div>
-      <h3>Emojis we know..</h3>
+      <h3>Emojis we are aware of..</h3>
       {emojisWeKNow.map((emoji) => {
         return (
           <span
