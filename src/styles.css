@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #d2cfff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading {
+  height: 75px;
+  background-color: #2200ff;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+input {
+  width: 60%;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.emoji-meaning {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h3 {
+  margin: 20px;
+}
